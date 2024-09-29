@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="base">
+            <h4>Age Calculator</h4>
+        </div>
+        <div class="block">
+            <p id="title">Date</p>
+            <input type="text" name="date" id="date" minlength="1" maxlength="2" placeholder="dd" required>
+        </div>
+        <div class="block">
+            <p id="title">Month</p>
+            <input type="text" name="month" id="month" minlength="1" maxlength="2" placeholder="mm" required>
+        </div>
+        <div class="block">
+            <p id="title">Year</p>
+            <input type="text" name="year" id="year" minlength="4" maxlength="4" placeholder="yyyy" required>
+        </div>
+        <div id="submit-button">
+            <input type="button" name="submit" value="Submit" onclick="age()"/>
+        </div>
+        <div id="age"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
